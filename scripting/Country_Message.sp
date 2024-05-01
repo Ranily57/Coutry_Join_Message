@@ -25,7 +25,7 @@ public void OnClientPutInServer(int client)
 	GetClientName(client, playerName, sizeof(playerName));
 
 	char message[128];
-	Format(message, sizeof(message), "%s has joined the server from %s", playerName, country);
+	Format(message, sizeof(message), "%s has joined the game from %s", playerName, country);
 
 	PrintToChat(client, message);
 }
