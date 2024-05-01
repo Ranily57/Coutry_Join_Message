@@ -10,7 +10,7 @@ public Plugin myinfo =
 	author = "Ranily",
 	description = "Get Players location",
 	version = "1.0.0",
-	url = "https://github.com//LocationPlugins"
+	url = "https://github.com/Ranily57/Coutry_Join_Message"
 };
 
 public void OnClientPutInServer(int client)
