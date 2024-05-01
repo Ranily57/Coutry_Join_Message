@@ -20,13 +20,13 @@ jobs:
         uses: rumblefrog/setup-sp@master
         with:
           version: "1.10.x"
-          version-file: ./scripting/Location Plugins.sp
+          version-file: ./scripting/Country_Message.sp
 
       - name: Compile plugins
         run: |
           mkdir plugins
           cd scripting
-          spcomp -E -w234 -O2 -v2 -i"include" -o"../plugins/Location Plugins.smx" Location Plugins.sp
+          spcomp -E -w234 -O2 -v2 -i"include" -o"../plugins/Country_Message.smx" Country_Message.sp
           echo "===OUT FILES==="
           cd ../plugins
           ls
