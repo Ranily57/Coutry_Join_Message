@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><code>Location Plugins</code></h1>
+  <h1><code>Country Join Message</code></h1>
 </div>
 
 This is a simple plugin who add the country of the player in the chat when he join the game.

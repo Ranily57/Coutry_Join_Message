@@ -4,6 +4,5 @@
 
 ### Added
 
-### Fixed
+- Plugins to the forum
 
-### Removed
